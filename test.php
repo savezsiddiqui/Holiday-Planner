@@ -137,6 +137,7 @@ input[type=text]:focus, input[type=password]:focus {
 .contact{
     font-family: "Nunito";
     font-weight: bold;
+    color:#2F4F4F;
 }
    
 </style>
@@ -180,8 +181,10 @@ input[type=text]:focus, input[type=password]:focus {
                         for companies with a travel spend up to $5m.</p>
                     <p><I>Why trust us?</I></p>
                     <div class="col-lg-3 col-md-3 col-sm-3">
-                        <li> bullet </li><li> bullet </li><li> bullet </li>
-                       
+                        <li> bullet </li>
+                        <li> bullet </li>
+                        <li> bullet </li>
+
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-6">
@@ -321,57 +324,105 @@ input[type=text]:focus, input[type=password]:focus {
             <h2>WE OFFER THESE EXCITING TRAVEL DESTINATIONS!</h2><br><br>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-8">
-                    <div class="thumbnail">
-                        <a href="british.php"><img src="img/lon.jpg" alt="Nature" style="width:100%"></a>
-                        <div class="caption">
-                            <h4><span>London</span></h4>
+                    <a href="british.php" style="text-decoration:none;">
+                        <div class="thumbnail">
+                            <img src="img/lon.jpg" alt="Nature" style="width:100%">
+                            <div class="caption">
+                                <h3><b>London</b></h3>
+                                <p>&nbsp;</p>
+                                <p>✓ 5 Stars Hotel</p>
+                                <p>✓ All Inclusive</p>
+                                <p>✓ Flight tickets included</p>
+                                <p>✓ Guided visits</p>
+                                <h5><b> Starting at ₹ 3.5 lakhs only</b></h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-8">
-                    <div class="thumbnail">
-                        <a href="USA.php"><img src="img/D.jpg" alt="Nature" style="width:100%"></a>
-                        <div class="caption">
-                            <h4><span>North America</span></h4>
+                    <a href="USA.php" style="text-decoration:none;">
+                        <div class="thumbnail">
+                            <img src="img/D.jpg" alt="Nature" style="width:100%">
+                            <div class="caption">
+                                <h3><b>North America</b></h3>
+                                <p>&nbsp;</p>
+                                <p>✓ 5 Stars Hotel</p>
+                                <p>✓ All Inclusive</p>
+                                <p>✓ Flight tickets included</p>
+                                <p>✓ Guided visits</p>
+                                <h5><b> Starting at ₹ 7 lakhs only</b></h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-8">
-                    <div class="thumbnail">
-                        <a href="europe.php"><img src="img/eu.jpg" alt="Nature" style="width:100%"></a>
-                        <div class="caption">
-                            <h4><span>Vive La Europe</span></h4>
+                    <a href="europe.php" style="text-decoration:none;">
+                        <div class="thumbnail">
+                            <img src="img/eu.jpg" alt="Nature" style="width:100%">
+                            <div class="caption">
+                                <h3><b>Vive La Europe</b></h3>
+                                <p>&nbsp;</p>
+                                <p>✓ 5 Stars Hotel</p>
+                                <p>✓ All Inclusive</p>
+                                <p>✓ Flight tickets included</p>
+                                <p>✓ Guided visits</p>
+                                <h5><b> Starting at ₹ 20 lakhs only</b></h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-8">
-                    <div class="thumbnail">
-                        <a href=""><img src="img/K.jpg" alt="Nature" style="width:100%"></a>
-                        <div class="caption">
-                            <h4><span>Jammu & Kashmir</span></h4>
+                    <a href="#" style="text-decoration:none;">
+                        <div class="thumbnail">
+                            <img src="img/K.jpg" alt="Nature" style="width:100%">
+                            <div class="caption">
+                                <h3><b>Jammu & kashmir</b></h3>
+                                <p>&nbsp;</p>
+                                <p>✓ 5 Stars Hotel</p>
+                                <p>✓ All Inclusive</p>
+                                <p>✓ Flight tickets included</p>
+                                <p>✓ Guided visits</p>
+                                <h5><b> Starting at ₹ 1.5 lakhs only</b></h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-8">
-                    <div class="thumbnail">
-                        <a href="africa.php"><img src="img/T.jpg" alt="Nature" style="width:100%"></a>
-                        <div class="caption">
-                            <h4><span>Thailand</span></h4>
+                    <a href="africa.php" style="text-decoration:none;">
+                        <div class="thumbnail">
+                            <img src="img/T.jpg" alt="Nature" style="width:100%">
+                            <div class="caption">
+                                <h3><b>Thailand</b></h3>
+                                <p>&nbsp;</p>
+                                <p>✓ 5 Stars Hotel</p>
+                                <p>✓ All Inclusive</p>
+                                <p>✓ Flight tickets included</p>
+                                <p>✓ Guided visits</p>
+                                <h5><b> Starting at ₹ 1.5 lakhs only</b></h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-8">
-                    <div class="thumbnail">
-                        <a href="australia.php"><img src="img/Au.jpg" alt="Nature" style="width:100%"></a>
-                        <div class="caption">
-                            <h4><span>Australia</span></h4>
+                    <a href="australia.php" style="text-decoration:none;">
+                        <div class="thumbnail">
+                            <img src="img/Au.jpg" alt="Nature" style="width:100%">
+                            <div class="caption">
+                                <h3><b>Australia</b></h3>
+                                <p>&nbsp;</p>
+                                <p>✓ 5 Stars Hotel</p>
+                                <p>✓ All Inclusive</p>
+                                <p>✓ Flight tickets included</p>
+                                <p>✓ Guided visits</p>
+                                <h5><b> Starting at ₹ 4.5 lakhs only</b></h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

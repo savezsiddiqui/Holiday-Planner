@@ -3,7 +3,10 @@ include 'php/connection.php';
 session_start();
 $_SESSION['city'] = 'usa';
 if (!isset($_SESSION['username']))
-  die("You need to login to view content");
+echo "<script>
+alert('Please Login or Signup');
+window.location.href='test.php';
+</script>";
 
 ?>
 

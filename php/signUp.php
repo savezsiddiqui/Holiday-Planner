@@ -17,7 +17,10 @@ $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 
 if (!empty($row)) {
-    echo "User Already Registered ";
+    echo "<script>
+            alert('User Already Registered');
+            window.location.href='../test.php';
+         </script>";
 } else {
     $sql = "INSERT INTO signup
             VALUES('$fname', '$lname', '$userid', '$address', $zipcode, $phone, '$email', '$password');";
@@ -25,12 +28,19 @@ if (!empty($row)) {
     if ($conn->query($sql)) {
         session_start();
         if (isset($_SESSION['username'])) {
-            die("SignUp Succesfull, but need to login with new Account.");
+            die("");
+            echo "<script>
+                    alert('SignUp Succesfull, but need to login with new Account');
+                    window.location.href='../test.php';
+                 </script>";
         }
         $_SESSION['username'] = $email;
         header("Location: ../test.php");
     } else
-        echo "Error Resigtering User";
+        echo "<script>
+                alert('Signup Failed');
+                window.location.href='../test.php';
+             </script>";
 }
 
 ?>

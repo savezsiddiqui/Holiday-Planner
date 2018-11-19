@@ -16,14 +16,17 @@ $for = $_SESSION['city'];
 $sql = "INSERT INTO payment
             VALUES('$email', $amt, $person, '$dept', '$arr', '$city', '$card', '$for');";
 
-if ($conn->query($sql)) { ?>
-    <script type="text/javascript">
-        alert("Payment Successfull");
-    </script>
-    
-<?php header("Location: ../test.php");
-} else
-    echo "Payment Failed";
+if ($conn->query($sql)) {
+    echo "<script>
+            alert('Payment Sucessful');
+            window.location.href='../test.php';
+          </script>";
+} else {
+    echo "<script>
+            alert('Payment Failed');
+            window.location.href='../test.php';
+         </script>";
+}
 
 $conn->close();
 ?>

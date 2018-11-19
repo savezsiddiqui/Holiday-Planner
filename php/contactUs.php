@@ -11,7 +11,10 @@ $sql = "INSERT INTO contactus
                     VALUES('$name', '$email', '$message');";
 
 if ($conn->query($sql))
-    echo "Message Sent <br>";
+    echo "<script>
+            alert('Message Sent');
+            window.location.href='../test.php';
+         </script>";
 
 $conn->close();
 ?>

@@ -10,7 +10,10 @@ $row = $result->fetch_assoc();
 
 session_start();
 if (isset($_SESSION['username'])) {
-    die("Please logout first");
+    echo "<script>
+            alert('Please Logout First');
+            window.location.href='../test.php';
+         </script>";
 }
 
 if (!empty($row)) {
@@ -19,9 +22,15 @@ if (!empty($row)) {
         $_SESSION['username'] = $row['email'];
         header("Location: ../test.php");
     } else
-        echo "password incorrect";
+        echo "<script>
+                alert('Password Incorrect');
+                window.location.href='../test.php';
+             </script>";
 } else {
-    echo "email not registered";
+    echo "<script>
+            alert('Email Not Registered');
+            window.location.href='../test.php';
+         </script>";
 }
 
 ?>
