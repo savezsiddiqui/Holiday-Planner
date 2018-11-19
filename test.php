@@ -300,7 +300,7 @@ input[type=text]:focus, input[type=password]:focus {
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <img src="img/member.png" class="logo" height="220px" width="auto">
                 </div>
-
+                <?php if (!isset($_SESSION['username'])) { ?>
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <h3><b>Already have an account? Login!</b></h3>
                     <br>
@@ -313,6 +313,14 @@ input[type=text]:focus, input[type=password]:focus {
                     </form>
 
                 </div>
+                <?php 
+            } else { ?>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <br><br><br>
+                    <h2>Welcome <?php echo $_SESSION['username'] ?></h2>
+                </div>
+                <?php 
+            } ?>
             </div>
         </div>
     </div>
@@ -484,9 +492,9 @@ input[type=text]:focus, input[type=password]:focus {
         </div>
     </div>
 
-<?php
-include 'include/footer.php';
-?>
+    <?php
+    include 'include/footer.php';
+    ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
