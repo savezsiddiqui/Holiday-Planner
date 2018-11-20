@@ -1,7 +1,6 @@
-
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito|Lato|Titillium+Web" rel="stylesheet" type="text/css">
 <style>
-.navbar{
+  .navbar{
   font-family: "Nunito";
 }
 </style>
@@ -22,9 +21,15 @@
           ?>
         <li><a href="cart.php"><strong> <span class="glyphicon glyphicon-bitcoin"></span>View Payments</strong></a></li>
         <li><a href="include/logout_script.php"><strong> <span class="glyphicon glyphicon-log-out"></span> Logout</strong></a></li>
-      <?php 
-    } ?>
-        
+        <?php 
+      } else { ?>
+        <li><a href="#login"><strong> <span class="glyphicon glyphicon-log-in"></span> Login</strong></a></li>
+        <li><a href="signup.php"><strong> <span class="glyphicon glyphicon-user"></span> Signup</strong></a></li>
+        <?php
+
+      }
+      ?>
+
       </ul>
     </div>
   </div>

@@ -27,15 +27,11 @@ if (!empty($row)) {
 
     if ($conn->query($sql)) {
         session_start();
-        if (isset($_SESSION['username'])) {
-            die("");
-            echo "<script>
-                    alert('SignUp Succesfull, but need to login with new Account');
-                    window.location.href='../test.php';
-                 </script>";
-        }
         $_SESSION['username'] = $email;
-        header("Location: ../test.php");
+        echo "<script>
+                alert('Signup Sucessfull');
+                window.location.href='../test.php';
+             </script>";
     } else
         echo "<script>
                 alert('Signup Failed');

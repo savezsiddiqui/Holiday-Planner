@@ -2,12 +2,12 @@
 include 'php/connection.php';
 session_start();
 
-if(isset($_POST['basic']))
-$_SESSION['price'] = 19;
-else if(isset($_POST['pro']))
-$_SESSION['price'] = 29;
+if (isset($_POST['basic']))
+    $_SESSION['price'] = 19;
+else if (isset($_POST['pro']))
+    $_SESSION['price'] = 29;
 else
-$_SESSION['price'] = 49;
+    $_SESSION['price'] = 49;
 
 echo $_SESSION['username'] . "<br>";
 echo $_SESSION['price'] . "<br>";

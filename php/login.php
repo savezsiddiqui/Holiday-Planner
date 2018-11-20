@@ -9,13 +9,6 @@ $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 
 session_start();
-if (isset($_SESSION['username'])) {
-    echo "<script>
-            alert('Please Logout First');
-            window.location.href='../test.php';
-         </script>";
-}
-
 if (!empty($row)) {
     if ($password == $row['password']) {
         session_start();
