@@ -223,10 +223,10 @@ input[type=text]:focus, input[type=password]:focus {
                         <div class="thumbnail">
                             <img src="img/lon.jpg" alt="Nature" style="width:100%">
                             <div class="caption">
-                                <h3><b>London</b></h3>
+                                <h3><b>The Great British Endeavor</b></h3>
                                 <p>&nbsp;</p>
-                                <p>✓ 5 Stars Hotel</p>
-                                <p>✓ All Inclusive</p>
+                                <p>✓ 5 Star Hotels</p>
+                                <p>✓ All 7 Isles</p>
                                 <p>✓ Flight tickets included</p>
                                 <p>✓ Guided visits</p>
                                 <h5><b> Starting at ₹ 3.5 lakhs only</b></h5>
@@ -240,12 +240,13 @@ input[type=text]:focus, input[type=password]:focus {
                         <div class="thumbnail">
                             <img src="img/D.jpg" alt="Nature" style="width:100%">
                             <div class="caption">
-                                <h3><b>North America</b></h3>
+                                <h3><b>The Land of Liberty</b></h3>
                                 <p>&nbsp;</p>
-                                <p>✓ 5 Stars Hotel</p>
-                                <p>✓ All Inclusive</p>
+                                <p>✓ 5 Star Hotels</p>
+                                <p>✓ Exclusive sight seeing</p>
+                                <p>✓ A City per day</p>
                                 <p>✓ Flight tickets included</p>
-                                <p>✓ Guided visits</p>
+
                                 <h5><b> Starting at ₹ 7 lakhs only</b></h5>
                             </div>
                         </div>
@@ -259,10 +260,10 @@ input[type=text]:focus, input[type=password]:focus {
                             <div class="caption">
                                 <h3><b>Vive La Europe</b></h3>
                                 <p>&nbsp;</p>
-                                <p>✓ 5 Stars Hotel</p>
-                                <p>✓ All Inclusive</p>
+                                <p>✓ 5 Star Hotels</p>
+                                <p>✓ Rich Anciet European Experience </p>
                                 <p>✓ Flight tickets included</p>
-                                <p>✓ Guided visits</p>
+                                <p>✓ Guided Visits</p>
                                 <h5><b> Starting at ₹ 20 lakhs only</b></h5>
                             </div>
                         </div>
@@ -270,11 +271,11 @@ input[type=text]:focus, input[type=password]:focus {
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-8">
-                    <a href="#" style="text-decoration:none;">
+                    <a href="india.html" style="text-decoration:none;">
                         <div class="thumbnail">
                             <img src="img/K.jpg" alt="Nature" style="width:100%">
                             <div class="caption">
-                                <h3><b>Jammu & kashmir</b></h3>
+                                <h3><b>Land of Gods</b></h3>
                                 <p>&nbsp;</p>
                                 <p>✓ 5 Stars Hotel</p>
                                 <p>✓ All Inclusive</p>
@@ -291,13 +292,13 @@ input[type=text]:focus, input[type=password]:focus {
                         <div class="thumbnail">
                             <img src="img/T.jpg" alt="Nature" style="width:100%">
                             <div class="caption">
-                                <h3><b>Thailand</b></h3>
+                                <h3><b>Exploring Afrićas</b></h3>
                                 <p>&nbsp;</p>
-                                <p>✓ 5 Stars Hotel</p>
-                                <p>✓ All Inclusive</p>
+                                <p>✓ 5 Star Hotels</p>
+                                <p>✓ Exclusive sight seeing</p>
                                 <p>✓ Flight tickets included</p>
-                                <p>✓ Guided visits</p>
-                                <h5><b> Starting at ₹ 1.5 lakhs only</b></h5>
+                                <p>✓ All the way from Sahara to Cape Town</p>
+                                <h5><b> Starting at ₹ 10 lakhs only</b></h5>
                             </div>
                         </div>
                     </a>
@@ -308,12 +309,13 @@ input[type=text]:focus, input[type=password]:focus {
                         <div class="thumbnail">
                             <img src="img/Au.jpg" alt="Nature" style="width:100%">
                             <div class="caption">
-                                <h3><b>Australia</b></h3>
+                                <h3><b>Australian Blende</b></h3>
                                 <p>&nbsp;</p>
-                                <p>✓ 5 Stars Hotel</p>
-                                <p>✓ All Inclusive</p>
+                                <p>✓ 5 Star Hotels</p>
+                                <p>✓ Living the Extreme Metropolis</p>
+                                <p>✓ Tameing the Wilderness</p>
                                 <p>✓ Flight tickets included</p>
-                                <p>✓ Guided visits</p>
+
                                 <h5><b> Starting at ₹ 4.5 lakhs only</b></h5>
                             </div>
                         </div>

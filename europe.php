@@ -101,7 +101,7 @@ include 'include/navigation.php';
 </head>
 <body>
 
-  <h2 class="heading"><center>Europe</center></h2>
+  <h2 class="heading"><center>VIVE LA EUROPE</center></h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -243,15 +243,16 @@ include 'include/navigation.php';
            <h1>Basic</h1>
          </div>
          <div class="panel-body">
-           <p><strong>20</strong> Lorem</p>
-           <p><strong>15</strong> Ipsum</p>
-           <p><strong>5</strong> Dolor</p>
-           <p><strong>2</strong> Sit</p>
-           <p><strong>Endless</strong> Amet</p>
+            <p><strong>30</strong> Days & <strong>29</strong> Nights</p>
+		   <p>Short & Sweet, but Complete Experience</p>
+           <p>Guided Country Tours</p>
+           <p>Pefect Blend of old and new times</p>
+           
+           <p>Economy Seatings</p>
          </div>
          <div class="panel-footer">
-           <h3>$19</h3>
-           <h4>per month</h4>
+           <h3>₹ 20 Lakhs only</h3>
+           
            <form method="POST" action="pay.php">
            <button type="submit" name="basic" class="btn btn-lg" > Pay Now</button>
            </form>
@@ -264,15 +265,15 @@ include 'include/navigation.php';
            <h1>Pro</h1>
          </div>
          <div class="panel-body">
-           <p><strong>50</strong> Lorem</p>
-           <p><strong>25</strong> Ipsum</p>
-           <p><strong>10</strong> Dolor</p>
-           <p><strong>5</strong> Sit</p>
-           <p><strong>Endless</strong> Amet</p>
+           <p><strong>45</strong> Days & <strong>44</strong> Nights</p>
+		   <p>Exclusive warm & cold Expiriences</p>
+           <p>Exclusive Cruise Days</p>
+           <p>Complete 7 County visit</p>
+           
+           <p>Business Seatings</p>
          </div>
          <div class="panel-footer">
-           <h3>$29</h3>
-           <h4>per month</h4>
+           <h3>₹ 24 Lacks only</h3>
            <form method="POST" action="pay.php">
            <button type="submit" name="pro" class="btn btn-lg" > Pay Now</button>
            </form>
@@ -285,15 +286,16 @@ include 'include/navigation.php';
            <h1>Premium</h1>
          </div>
          <div class="panel-body">
-           <p><strong>100</strong> Lorem</p>
-           <p><strong>50</strong> Ipsum</p>
-           <p><strong>25</strong> Dolor</p>
-           <p><strong>10</strong> Sit</p>
-           <p><strong>Endless</strong> Amet</p>
+          <p><strong>60</strong> Days & <strong>59</strong> Nights</p>
+           <p>Meeting with The Pope </p>
+           
+           <p>Exclusive Sport Events</p>
+		   <p>Premium Sight seeings</p>
+		   <p>Charter Seatings</p>
+           
          </div>
          <div class="panel-footer">
-           <h3>$49</h3>
-           <h4>per month</h4>
+           <h3>₹ 28.5 Lacks only</h3>
            <form method="POST" action="pay.php">
            <button type="submit" name="premium" class="btn btn-lg" > Pay Now</button>
            </form>
