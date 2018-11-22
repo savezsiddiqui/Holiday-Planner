@@ -6,38 +6,38 @@ switch ($_SESSION['city']) {
 
     case 'britain':
         if (isset($_POST['basic']))
-            $_SESSION['price'] = 19;
+            $_SESSION['price'] = 350000;
         else if (isset($_POST['pro']))
-            $_SESSION['price'] = 29;
+            $_SESSION['price'] = 500000;
         else
-            $_SESSION['price'] = 49;
-        break;
-
-    case 'africa':
-        if (isset($_POST['basic']))
-            $_SESSION['price'] = 19;
-        else if (isset($_POST['pro']))
-            $_SESSION['price'] = 29;
-        else
-            $_SESSION['price'] = 49;
-        break;
-
-    case 'australia':
-        if (isset($_POST['basic']))
-            $_SESSION['price'] = 19;
-        else if (isset($_POST['pro']))
-            $_SESSION['price'] = 29;
-        else
-            $_SESSION['price'] = 49;
+            $_SESSION['price'] = 700000;
         break;
 
     case 'usa':
         if (isset($_POST['basic']))
-            $_SESSION['price'] = 19;
+            $_SESSION['price'] = 700000;
         else if (isset($_POST['pro']))
-            $_SESSION['price'] = 29;
+            $_SESSION['price'] = 1000000;
         else
-            $_SESSION['price'] = 49;
+            $_SESSION['price'] = 1350000;
+        break;
+
+    case 'europe':
+        if (isset($_POST['basic']))
+            $_SESSION['price'] = 2000000;
+        else if (isset($_POST['pro']))
+            $_SESSION['price'] = 2400000;
+        else
+            $_SESSION['price'] = 2800000;
+        break;
+
+    case 'africa':
+        if (isset($_POST['basic']))
+            $_SESSION['price'] = 1000000;
+        else if (isset($_POST['pro']))
+            $_SESSION['price'] = 1500000;
+        else
+            $_SESSION['price'] = 2000000;
         break;
 
     case 'india':
@@ -51,11 +51,11 @@ switch ($_SESSION['city']) {
 
     case 'europe':
         if (isset($_POST['basic']))
-            $_SESSION['price'] = 19;
+            $_SESSION['price'] = 450000;
         else if (isset($_POST['pro']))
-            $_SESSION['price'] = 29;
+            $_SESSION['price'] = 700000;
         else
-            $_SESSION['price'] = 49;
+            $_SESSION['price'] = 1000000;
         break;
 }
 
